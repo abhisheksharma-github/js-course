@@ -35,3 +35,18 @@ console.log("1"+"2")
 // Phele jo dataype hoga vahi type ka result , string hoga first toh string result hoga or number hoga toh result number hoga
 
 console.log(1+2+"3")
+
+/* Return type of variables in JavaScript
+1) Primitive Datatypes
+       Number => number
+       String  => string
+       Boolean  => boolean
+       null  => object
+       undefined  =>  undefined
+       Symbol  =>  symbol
+       BigInt  =>  bigint
+
+2) Non-primitive Datatypes
+       Arrays  =>  object
+       Function  =>  function
+       Object  =>  object */
