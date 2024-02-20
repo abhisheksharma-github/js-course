@@ -41,6 +41,10 @@ console.log(result)
 let email= "abhisheksharma1805@gmail.com"
 console.log(email.replace("sharma","Sharma"))
 
+// we can find out Values in Strings by using .INCLUDE And the result we be in true and false
+console.log(email.includes("abhishek"))
 
-
+let NAAM= "Abhishek-Sharma-FC"
+// we can split this NAAM on the Bases of "-"
+console.log(NAAM.split('-'))
 
