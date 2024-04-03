@@ -25,4 +25,10 @@ console.log(this)
 const twoNumber= (num1,num2)=>{
     return num1+num2;
 }
-console.log(twoNumber(3,5));
+console.log("Sum of Two Number is",twoNumber(3,5)); 
+
+// we can declared the ARROW function like this
+
+const threeNumber=(num1,num2,num3)=> (num1+num2+num3); 
+// here we square bracket so,we don't need to write return
+console.log("Sum of Three Number is",threeNumber(4,5,6));
