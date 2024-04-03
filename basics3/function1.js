@@ -37,3 +37,4 @@ function Father(){
 }
 Father()
 
+// thats how we do it 
