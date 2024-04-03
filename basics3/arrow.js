@@ -32,3 +32,8 @@ console.log("Sum of Two Number is",twoNumber(3,5));
 const threeNumber=(num1,num2,num3)=> (num1+num2+num3); 
 // here we square bracket so,we don't need to write return
 console.log("Sum of Three Number is",threeNumber(4,5,6));
+
+
+//to declare the object we do this
+const User=() => ({username:"abhishek"});
+console.log(User());
