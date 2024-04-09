@@ -9,8 +9,14 @@
 
 </body>
 <script>
-   const Div= document.createElement("div")
-   console.log(Div)
+   const div= document.createElement("div")
+   console.log(div)
    div.className="main"
+   div.id=Math.round(Math.random()*10+1)
+   div.setAttribute("title:",'Main Title')
+   // div mein content aise write krte ha 
+const text=document.createTextNode="Hello Fella's "  
+div.appendChild(text) // aise hum usko access kar skte ha
+document.appendChild(div) // yha vo sab merge ho jayega jo jo hum na div mein add kiya
 </script>
 </html>
